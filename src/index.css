@@ -1,0 +1,16 @@
+html, body {
+    margin: 0px 10px;
+}
+
+body {
+    color: #DCDCDC;
+    display: flex;
+    justify-content: center;
+    background-color: #23252C;
+}
+
+#root {
+    padding: 0px 30px;
+    background-color: #1C1C1C;
+    max-width: 350px;
+}
