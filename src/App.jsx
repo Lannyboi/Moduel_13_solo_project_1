@@ -40,8 +40,3 @@ export default function App() {
     </div>
   )
 }
-
-document.getElementById("email").addEventListener("click", function() {
-  navigator.clipboard.writeText("graytech33@gmail.com")
-  alert("Copied Email: graytech33@gmail.com")
-})
