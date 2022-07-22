@@ -33,7 +33,8 @@
     flex-wrap: wrap;
 }
 
-button {
+.button {
+    text-decoration: none;
     margin-top: 10px;
     border-radius: 10px;
     border: none;
@@ -55,6 +56,11 @@ button {
 .linkedin-btn {
     color: white;
     background-color: #5093E2;
+}
+
+.email-btn {
+    color: black;
+    background-color: white;
 }
 
 .platform {

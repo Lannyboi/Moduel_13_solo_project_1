@@ -8,10 +8,10 @@ export default function App() {
       <header className="personal-info">
         <h1 className="name">Landon Gray</h1>
         <h3 className="job-title">Frontend Developer</h3>
-        <p className="website">LandonGray.website</p>
+        <p className="website"><a href='https://lannyboi.github.io/Moduel_13_solo_project_1/' target="_blank">lannyboi.github.io/Moduel_13_solo_project_1/</a></p>
         <div className="buttons">
-          <button>Email</button>
-          <button className="linkedin-btn">Linkedln</button>
+          <a id="email" className='button email-btn'>Email</a>
+          <a href='https://www.linkedin.com/in/landon-gray-4a5532241/' target="_blank" className="linkedin-btn button">Linkedln</a>
         </div>
       </header>
       <div className="information">
@@ -40,3 +40,8 @@ export default function App() {
     </div>
   )
 }
+
+document.getElementById("email").addEventListener("click", function() {
+  navigator.clipboard.writeText("graytech33@gmail.com")
+  alert("Copied Email: graytech33@gmail.com")
+})
